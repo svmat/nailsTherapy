@@ -1,0 +1,9 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://svmat:5E7EzDoYnN@ds127978.mlab.com:27978/nails_therapy",
+      "MAIL_URL": "smtp://postmaster%40sandboxf30ffc0b236a46f2bce99e4a6a33b24b.mailgun.org:cf5f996c35e54c6b5041e3a1fb86f35a@smtp.mailgun.org:587",
+      "ROOT_URL": "http://www.nailstherapy.com"
+    }
+  }
+}

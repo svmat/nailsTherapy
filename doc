@@ -1,0 +1,48 @@
+http://blog.scottlogic.com/2015/09/18/meteor-scroll.html - for orion and scrolling
+
+https://guide.meteor.com/deployment.html#galaxy - deployment to galaxy
+Used database - https://mlab.com/
+
+Monitoring:
+https://galaxy.meteor.com/app/nailstherapy.com
+
+
+on Insert/Update
+this Object example:
+docId:"hc9cXKCNYMkbQakSt"
+field
+:
+(fName)
+isFromTrustedCode
+:
+false
+isInsert
+:
+false
+isLocalCollection
+:
+false
+isSet
+:
+true
+isUpdate
+:
+true
+isUpsert
+:
+false
+operator
+:
+"$set"
+siblingField
+:
+(fName)
+unset
+:
+()
+userId
+:
+"q3vHP2kwMtc7GESNr"
+value
+:
+"Half-Moon Manicure"

@@ -1,0 +1,43 @@
+<template name="gallery">
+    <div class="row">
+            <div class='col-sm-12 col-md-12 col-lg-12' id="title_gallery">My Work</div></div>
+        {{ > carousel}}
+
+</template>
+
+<template name="carousel">
+    <div class="owl-carousel owl-theme owl-loaded">
+
+        {{#each images}}
+            {{ > image}}
+        {{/each}}
+
+    </div>
+</template>
+
+
+<template name="image">
+    <a class="item thumbnail" id="{{_id}}" href="#">
+        <img src="{{img_src}}" alt="{{img_alt}}" class="img-rounded">
+    </a>
+</template>
+
+<template name="imageModal">
+    <div id="single_image" class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+
+            <!-- Modal content-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-content">
+                <div class="modal-body">
+                    {{#with image}}
+                    <img class="single-img" src="{{img_src}}" data-toggle="tooltip" title="{{description}}"/>
+                    {{/with}}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</template>
